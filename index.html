@@ -1,0 +1,222 @@
+<html>
+    <head> 
+        <title> Shopping Cart</title>
+        <link href="css/bootstrap.css"  rel="stylesheet" />
+        <link href="css/bootstrap.min.css"  rel="stylesheet" />
+        <link href="style/style.css"  rel="stylesheet" />
+        <link href="css/jquery-ui.css"  rel="stylesheet" />
+        <link href="css/jquery.range.css"  rel="stylesheet" />
+        <link href="css/normalize.css" rel="stylesheet" />
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <!--<script src="js/bootstrap.min.js"></script>
+        <script src="js/npm.js"></script>-->
+        <script src="js/jquery.range.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function($) {
+            $('.range-slider').jRange({
+               from: 0,
+               to: 100,
+               step: 1,
+               scale: [0,100],
+               format: '%s',
+               width: 170,
+               showLabels: true,
+               isRange : true
+             });
+             $('#showmodal').click(function(){
+                  $('#modal').show();
+               });
+            $('.close').click(function(){
+               $('#modal').hide();
+            });
+            // $('.slider').jRange('updateRange', '0,100');
+         });
+        </script>
+        
+    </head>
+    <body>
+        <div class="jumbotron-fluid classBlue">
+        <div class="container">
+            <div id="burst-12"></div>
+
+            <div>
+                <div class=""></div>
+                <div class=""> </div>
+            </div>
+             
+                
+        </div>
+
+        <div class="container margin30">
+            <div class="row">
+               
+           <div class="left-pull col-lg-2 border-rt">
+            <a href="#" id="showmodal">Show Price</a>
+              <h5>Filters</h5> 
+
+                 <div class="range">
+                  
+                    <input type="range" class="slider-input slider range-slider" value="23" />
+                    <p>Price</p>
+                    <button class="apply">Apply</button>
+                 </div>
+                 
+              </div>     
+          
+           <div class="right-pull col-lg-8">
+            <h5 class="col-md-2">Sort By</h5> 
+            <ul class="col-md-7">
+                <li><a href="#" class="active">Price -- High Low</a></li>
+                <li><a href="#">Price -- Low High</a></li>
+                <li><a href="#">Discount</a></li>
+            </ul> 
+            <div class="shoppingCart">
+               <ul>
+                   <li>
+                       <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                       <span>Items 1</span>
+                       <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                       <button> Add On</button>
+                    </li>
+                   <li>
+                       <img src="images/headphone.jpeg" width="150" height="150" />
+                       <span>Items 2</span>
+                       <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                       <button> Add On</button>
+                    </li>
+                    <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/laptop240x240.jpg" width="150" height="150"  />
+                        <span>Items 1</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                    <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+                     <li>
+                        <img src="images/headphone.jpeg" width="150" height="150" />
+                        <span>Items 2</span>
+                        <span class="small-txt">$ 319 <a href="#" class="green">64% off</a></span>
+                        <button> Add On</button>
+                     </li>
+               </ul>
+            </div>
+             </div>
+            </div>
+          
+        </div>
+    </div>
+
+    <div id="modal">
+      <div class="insertscreen">
+         <div class="rangeModal">
+         <input type="range" class="slider-input slider range-slider" value="23" />
+                    <p>Price</p>
+                    <button class="apply">Apply</button>
+          <p class="close">X</p>
+      </div>
+   </div>
+  </div>
+  
+    </body>
+</html>
